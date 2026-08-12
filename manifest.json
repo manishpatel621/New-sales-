@@ -1,0 +1,25 @@
+{
+  "name": "Order Management - Shop",
+  "short_name": "Order Shop",
+  "description": "Order Management System - Shop, track orders, and more",
+  "start_url": "customer/dashboard.php",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f7f6",
+  "theme_color": "#0d9488",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
