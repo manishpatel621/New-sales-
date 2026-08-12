@@ -1,0 +1,5 @@
+# FILE: assets/uploads/.htaccess
+# Prevent execution of PHP files inside the uploads folder (security)
+<FilesMatch "\.php$">
+    Require all denied
+</FilesMatch>
